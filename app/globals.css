@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #272727;
     --foreground: #ededed;
   }
 }
@@ -24,4 +24,28 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.df {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.g5 {
+  gap: 5px;
+}
+
+.fw {
+  flex-wrap: wrap;
+}
+
+.fdc {
+  flex-direction: column;
 }
